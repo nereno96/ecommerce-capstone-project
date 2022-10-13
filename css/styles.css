@@ -12,6 +12,14 @@ header {
     padding-bottom: 10px;
 }
 
+.nav-link{
+    color: white;
+}
+
+.navbar-toggler-icon{
+    color: white;
+}
+
 .form-floating{
     display: flex;
     justify-content: center;
