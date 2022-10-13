@@ -1,3 +1,23 @@
+
+
+/*to hide the black box around my logo */
 header {
     background-color: black;
+}
+
+
+/*fixes unevenness in navbar*/
+.navbar-nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form-floating{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-signup{
+    display: flex;
+    justify-content: center;
 }
