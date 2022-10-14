@@ -34,3 +34,12 @@ main{
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.product-r-1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-img-top{
+    padding-top: 20px;
+}
