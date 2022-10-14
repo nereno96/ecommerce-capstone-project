@@ -66,3 +66,7 @@ main{
 .important{
     font-weight: bold;
 }
+
+.card{
+    color: white;
+}
