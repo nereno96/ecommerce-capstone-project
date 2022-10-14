@@ -43,3 +43,7 @@ main{
 .card-img-top{
     padding-top: 20px;
 }
+
+.form-floating{
+    padding: 5px;
+}
