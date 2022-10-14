@@ -1,4 +1,6 @@
-
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+  }
 
 /*to hide the black box around my logo */
 header {
@@ -12,6 +14,7 @@ header {
     padding-bottom: 10px;
 }
 
+/*fixes contrast issue with text in navbar*/
 .nav-link{
     color: white;
 }
@@ -20,6 +23,7 @@ header {
     color: white;
 }
 
+/*moved sign in form to the center of the page*/
 .form-floating{
     display: flex;
     justify-content: center;
@@ -28,22 +32,37 @@ header {
 .logo-signup{
     display: flex;
     justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+/*just makes the page a little easier to look at in my opnion*/
 main{
     margin-left: 10px;
     margin-right: 10px;
 }
 
+/*keeps the product cards from being on top of each other*/
 .product-r-1{
     display: flex;
     justify-content: space-around;
 }
 
+/*moves images away from the top of the card*/
 .card-img-top{
     padding-top: 20px;
 }
 
+/*adds separation between input boxes in login and registration pages*/
 .form-floating{
     padding: 5px;
+}
+
+.btn{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.important{
+    font-weight: bold;
 }
