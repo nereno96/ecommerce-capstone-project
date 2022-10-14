@@ -29,3 +29,8 @@ header {
     display: flex;
     justify-content: center;
 }
+
+main{
+    margin-left: 10px;
+    margin-right: 10px;
+}
